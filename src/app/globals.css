@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&display=swap');  */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body{
+  background-color: rgb(242,251,255);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 18px;
+  height: 18px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: #ffffff; */
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
